@@ -14,7 +14,7 @@
 
 <p>Clone this repository to your device:</p>
 
-<pre><code>git clone &lt;repository_url&gt;</code></pre>
+<pre><code>git clone git@github.com:tstimur/php-nginx-pgsql-rabbitmq.git</code></pre>
 
 <h3>2. Configure Environment</h3>
 
@@ -59,7 +59,7 @@
 
 <p>Клонируйте данный репозиторий на ваше устройство:</p>
 
-<pre><code>git clone &lt;URL_репозитория&gt;</code></pre>
+<pre><code>git clone git@github.com:tstimur/php-nginx-pgsql-rabbitmq.git</code></pre>
 
 <h3>2. Настройка окружения</h3>
 
