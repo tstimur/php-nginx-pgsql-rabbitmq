@@ -30,7 +30,7 @@ services:
             - POSTGRES_USER=${DB_USERNAME}
             - POSTGRES_PASSWORD=${DB_PASSWORD}
         volumes:
-            - ./docker/postgres/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d/:cached
+            - ./docker/postgres/pgdata:/var/lib/postgresql/data
         ports:
             - "5432:5432"
     rabbitmq:
